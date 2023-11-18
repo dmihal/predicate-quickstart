@@ -690,14 +690,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "counter-contract"
-version = "0.1.0"
-dependencies = [
- "fuels",
- "tokio",
-]
-
-[[package]]
 name = "cpufeatures"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3280,6 +3272,14 @@ checksum = "5e1788eed21689f9cf370582dfc467ef36ed9c707f073528ddafa8d83e3b8500"
 dependencies = [
  "digest 0.10.7",
  "rand_core",
+]
+
+[[package]]
+name = "simple_predicate"
+version = "0.1.0"
+dependencies = [
+ "fuels",
+ "tokio",
 ]
 
 [[package]]
